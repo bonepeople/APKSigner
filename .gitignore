@@ -1,1 +1,5 @@
 /bin/
+/signed/
+/unsigned/
+/key
+/src/com/bonepeople/tools/Config.java
