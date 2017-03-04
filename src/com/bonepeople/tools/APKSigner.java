@@ -121,8 +121,7 @@ public class APKSigner
 	 */
 	private String get_signedFilePath(String _channel_name)
 	{
-		String _version = "_1.0.0";
-		return "signed\\" + _channel_name + _version + ".apk";
+		return "signed\\" + _channel_name + "_" + Config._version + ".apk";
 	}
 
 	public static void main(String[] args)
